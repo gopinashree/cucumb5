@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39061" started-at="2019-09-02T06:26:45Z" finished-at="2019-09-02T06:27:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39061" started-at="2019-09-02T06:26:45Z" finished-at="2019-09-02T06:27:24Z">
+      <class name="testcase1.case1.NewTest">
+        <test-method status="FAIL" signature="BeforeTest()[pri:0, instance:testcase1.case1.NewTest@2b98378d]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2019-09-02T11:56:45Z" finished-at="2019-09-02T11:56:45Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CDC2-D-46F3N62', ip: '10.237.17.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\TRAINI~1.28\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06111624d0e03f11b7ef44fa1184ac16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CDC2-D-46F3N62', ip: '10.237.17.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\TRAINI~1.28\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06111624d0e03f11b7ef44fa1184ac16
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at testcase1.case1.NewTest.BeforeTest(NewTest.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="SKIP" signature="f()[pri:1, instance:testcase1.case1.NewTest@2b98378d]" name="f" duration-ms="2" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="SKIP" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testcase1.case1.NewTest@2b98378d]" name="getResultAfterMethod" is-config="true" duration-ms="0" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="SKIP" signature="login()[pri:2, instance:testcase1.case1.NewTest@2b98378d]" name="login" duration-ms="2" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testcase1.case1.NewTest@2b98378d]" name="getResultAfterMethod" is-config="true" duration-ms="0" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="SKIP" signature="addcart()[pri:3, instance:testcase1.case1.NewTest@2b98378d]" name="addcart" duration-ms="11" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcart -->
+        <test-method status="SKIP" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testcase1.case1.NewTest@2b98378d]" name="getResultAfterMethod" is-config="true" duration-ms="0" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="SKIP" signature="payment()[pri:4, instance:testcase1.case1.NewTest@2b98378d]" name="payment" duration-ms="2" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method status="SKIP" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:testcase1.case1.NewTest@2b98378d]" name="getResultAfterMethod" is-config="true" duration-ms="0" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="SKIP" signature="testLast()[pri:0, instance:testcase1.case1.NewTest@2b98378d]" name="testLast" is-config="true" duration-ms="0" started-at="2019-09-02T11:57:24Z" finished-at="2019-09-02T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLast -->
+      </class> <!-- testcase1.case1.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

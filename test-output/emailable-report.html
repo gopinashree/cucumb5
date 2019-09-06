@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">39,061</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testcase1.case1.NewTest</td><td><a href="#m0">BeforeTest</a></td><td rowspan="1">1567405605527</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">testcase1.case1.NewTest</td><td><a href="#m1">getResultAfterMethod</a></td><td rowspan="4">1567405644581</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m2">getResultAfterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m3">getResultAfterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m4">getResultAfterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m5">testLast</a></td><td rowspan="1">1567405644583</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">testcase1.case1.NewTest</td><td><a href="#m6">addcart</a></td><td rowspan="1">1567405644564</td><td rowspan="1">11</td></tr><tr class="skippedeven"><td><a href="#m7">f</a></td><td rowspan="1">1567405644551</td><td rowspan="1">2</td></tr><tr class="skippedeven"><td><a href="#m8">login</a></td><td rowspan="1">1567405644558</td><td rowspan="1">2</td></tr><tr class="skippedeven"><td><a href="#m9">payment</a></td><td rowspan="1">1567405644578</td><td rowspan="1">2</td></tr></tbody></table><h2>Default test</h2><h3 id="m0">testcase1.case1.NewTest#BeforeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CDC2-D-46F3N62&apos;, ip: &apos;10.237.17.61&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\TRAINI~1.28\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06111624d0e03f11b7ef44fa1184ac16
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at testcase1.case1.NewTest.BeforeTest(NewTest.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">testcase1.case1.NewTest#getResultAfterMethod</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">testcase1.case1.NewTest#getResultAfterMethod</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">testcase1.case1.NewTest#getResultAfterMethod</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">testcase1.case1.NewTest#getResultAfterMethod</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">testcase1.case1.NewTest#testLast</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">testcase1.case1.NewTest#addcart</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">testcase1.case1.NewTest#f</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">testcase1.case1.NewTest#login</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">testcase1.case1.NewTest#payment</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
